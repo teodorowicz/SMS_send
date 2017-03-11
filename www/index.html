@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<script src="js/script.js"></script>
+		<script src="cordova.js"></script>
+        <link href="css/styl.css" rel="stylesheet" />
+	</head>
+	<body onload="init()">
+		<h1>Wysylanie smsa!</h1>
+
+
+        
+        <input id="numberTxt" placeholder="Podaj numer telefonu" value="" type="tel" /><br/>
+        <textarea id="messageTxt" placeholder="Wprowadz wiadomosc"></textarea><br />
+        <input type="button" onclick="app.sendSms()" value="Wyslij SMS" />
+
+	</body>
+</html>

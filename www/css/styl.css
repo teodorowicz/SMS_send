@@ -1,0 +1,21 @@
+ button, input {
+     background-color: #ffd800;
+     width: 25%;
+     height: auto;
+     font-size:20px;
+ }
+ input#numberTxt {
+
+    background-color: #ffffff;
+ }
+
+
+ textarea{
+     width:400px;
+     height:200px;
+ }
+
+ body {
+     background-color: beige;
+     margin: 20px 20px 20px 20px;
+ }
